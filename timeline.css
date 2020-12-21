@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
+body {
+  margin: 0;
+  top: 0;
+  padding: 0;
+}
+#timeline-content p {
+	 font-weight: 300;
+}
+#timeline-content a {
+	 color: #6c6d6d;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 display: block;
+	 letter-spacing: .3em;
+	 font-size: .6em;
+	 font-weight: 400;
+	 background: #252727;
+	 padding: .3rem 1rem;
+	 margin: 1.9rem 0 0 0;
+	 float: right;
+}
+#timeline-content a:hover {
+	 color: black;
+	 background: #004ffc;
+	 border-bottom: .35em solid black;
+}
+#timeline-content strong {
+	 font-weight: 600;
+}
+#timeline-content h1 {
+	 font-family: arial;
+	 letter-spacing: 1.5px;
+	 color: white;
+	 font-weight: 400;
+	 font-size: 2.4em;
+}
+ #timeline-content {
+   background: #ffffff;
+	 font-size: 16px;
+}
+ .timeline {
+   background: #252827;
+	 font-size: 16px;
+	 border-left: 4px solid #000000;
+	 border-bottom-right-radius: 4px;
+	 border-top-right-radius: 4px;
+	 background: rgba(255,255,255,0.03);
+	 color: rgba(0,0,0,0.8);
+	 font-family: arial;
+	 margin: 50px auto;
+	 letter-spacing: 0.5px;
+	 position: relative;
+	 line-height: 1.4em;
+	 font-size: 1.03em;
+	 padding: 50px;
+	 list-style: none;
+	 text-align: left;
+	 font-weight: 100;
+	 max-width: 70%;
+}
+ .timeline h1 {
+	 font-family: arial;
+	 letter-spacing: 1.5px;
+	 font-weight: 100;
+	 font-size: 1.4em;
+}
+ .timeline h2, .timeline h3 {
+	 font-family: arial;
+	 letter-spacing: 1.5px;
+	 font-weight: 400;
+	 font-size: 1.4em;
+}
+ .timeline .event {
+	 border-bottom: 1px dashed rgba(0,0,0,0.5);
+	 padding-bottom: 25px;
+	 margin-bottom: 50px;
+	 position: relative;
+}
+ .timeline .event:last-of-type {
+	 padding-bottom: 0;
+	 margin-bottom: 0;
+	 border: none;
+}
+ .timeline .event:before, .timeline .event:after {
+	 position: absolute;
+	 display: block;
+	 top: 0;
+}
+ .timeline .event:before {
+	 left: -217.5px;
+	 color: rgba(0,0,0,0.8);
+	 content: attr(data-date);
+	 text-align: right;
+	 font-weight: 100;
+	 font-size: 0.9em;
+	 min-width: 120px;
+   font-family: arial;
+}
+ .timeline .event:after {
+	 box-shadow: 0 0 0 4px #000000;
+	 left: -57.85px;
+	 background: #313534;
+	 border-radius: 50%;
+	 height: 11px;
+	 width: 11px;
+	 content: "";
+	 top: 5px;
+}

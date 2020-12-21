@@ -1,0 +1,623 @@
+/* CSS FOR PAM  SPRING 2020 */
+/*--------------------------------------------------------------------------*/
+
+
+
+/* STYLING FOR SLIDE SHOW IMAGES ON THE AIRCRAFT DETAIL PAGE */
+* {box-sizing:border-box}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:#bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* END OF STYLING FOR SLIDE SHOW IMAGES ON THE AIRCRAFT DETAIL PAGE */
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+/* NAVIGATION */
+header {
+	display: flex;
+	width: 100%;
+	height: 5vh;
+	margin: auto;
+  align-items: center;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 1;
+  padding-right: 3em;
+  top: 0;
+}
+
+.fixed-header {
+
+}
+
+.logo-container,
+.nav-links {
+    display: flex;
+
+}
+
+.logo-container {
+	flex: 2;
+}
+.logo {
+	font-weight: 400;
+	margin: 5px;
+}
+nav {
+    flex: 2;
+
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+.nav-link {
+	color: #2a1f37;
+	font-size: 18px;
+	text-decoration: none;
+  border-left: solid .5px;
+  flex: 1 1 auto;
+  justify-content:flex-end;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*footer */
+.footer
+{
+    background: #a7a7a7;
+    color: #d3d3d3;
+    height:  100px;
+    position: relative;
+
+
+}
+
+/* end of footer */
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+body, html{
+
+    margin: 5px 10px 0 10px;
+}
+
+
+
+.background
+{
+  background-color: #e7e7e7;
+  margin: 10px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+}
+
+h1.videoText
+{
+  text-align: center;
+}
+
+p.textAlign
+{
+  padding: 0 100px 0 100px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+p.textAlignLeft
+{
+  text-align: center;
+
+}
+
+.backgroundClear
+{
+  margin: 10px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.imageTitle{
+
+	width: 100%;
+	height: 40vh;
+	margin: auto;
+background-color:#e7e7e7;
+}
+
+.centered
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1.spec
+{
+  text-align: center;
+}
+
+.centeredTitleText
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -620%);
+}
+/*----------------------------------------------*/
+
+
+
+
+
+
+/* exhibits page cards */
+
+.card {
+
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+margin: auto;
+justify-content: center;
+
+}
+
+.flex-container > div{
+  margin: 10px;
+}
+
+h2
+{
+  font-size: 16px;
+  padding-top: 3px;
+}
+
+a
+{
+  text-decoration: none;
+  color: #000000;
+
+}
+
+/* END OF exhibits page cards */
+
+
+
+
+
+
+/*---------------------------------------------*/
+.flex-containerVideo
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.videoText
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+/*---------------------------------------------*/
+
+
+
+
+
+
+
+/* spec */
+.cardSpec {
+
+  max-width: 250px;
+
+  text-align: center;
+  font-family: arial;
+padding: 10px;
+
+}
+
+
+.flex-containerSpec {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 5px;
+width: 80%;
+}
+/* end of spec section */
+
+
+
+
+
+/*---------------------------------------------*/
+body,h2,h3{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p,ul{
+  font-family: 'Lato', sans-serif;
+
+}
+
+h2, p.title, ul{
+  font-size: 20px;
+}
+
+
+ul{
+  list-style-type: none;
+  line-height: 1.6;
+}
+/*---------------------------------------------*/
+
+
+
+
+
+
+/* table scroll */
+table{
+  width:100%;
+  table-layout: fixed;
+
+  border: none;
+  border-spacing: 0px;
+  border-collapse: separate;
+}
+
+.tbl-content{
+  height:400px;
+  overflow-x:auto;
+  margin: 0;
+  top: 0;
+  padding: 0;
+  border: 1px solid rgba(0,0,0,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #a7a7a7;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #000;
+  border-bottom: solid 1px black;
+}
+
+
+
+/* END of table scroll */
+
+
+
+
+
+
+
+
+
+
+
+/* fixes padding when going to smaller screen sizes. Makes it easier to read (its no longer heavily spaced out */
+@media screen and (max-width: 1024px)
+{
+
+p.textAlign{
+  padding: 0px 5px 0px 5px;
+}
+
+
+
+}
+/* ********************************** */
+
+
+
+
+
+
+
+
+/* home page header image */
+.imageTitle2
+{
+  display: block;
+	width: 80%;
+	height: 40vh;
+	margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  min-width: 800px;
+  opacity: .7;
+}
+
+.titleTextHomepage
+{
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255, .7);
+  border-radius: 25px;
+  padding: .5em;
+}
+
+
+/* END OF home page header image */
+
+/* homepage article sectiom */
+.card2 {
+
+  max-width: 300px;
+  max-height: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+
+
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+
+
+}
+
+.flex-container2 > div{
+  margin: 40px 70px;
+}
+
+h2.homePageArticle
+{
+  text-align: left;
+}
+
+.title2{
+  text-align: left;
+  font-size: 16px;
+}
+
+h3{
+  text-align: left;
+  text-decoration: none;
+  color: #0061b9;
+}
+/* end of homepage article section */
+
+
+/*Calendar section */
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+
+/* ******************** */
+
+/* This is used to make the elements spaced out in the footer(bottom of the page)
+the background color can be changed by editing what ever color you want with a
+hex value or a generic color name such as "blue" */
+.flex-containerF{
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  background-color: #e7e7e7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+/* This is used to put the links in a column format in the footer*/
+.linkFlex{
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+/* This is used to put the links in a column format in the footer*/
+.linkFlex2{
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+/* spans the footer for the entire length of the page, makes the text color black,
+puts a black border at the top of the footer*/
+footer{
+  width: 100%;
+  color: black;
+  text-align: center;
+
+}
+
+/* positions the elements in the footerTitle id */
+#footerTitle{
+  padding: 10px;
+
+  text-align: center;
+}
+
+/* positions the elements in the footerLinks id */
+#footerLinks{
+  padding: 5px;
+
+}
+
+/* positions the elements in the footerNews id */
+#footerNews{
+  top: 100px;
+  padding: 5px;
+
+}
+
+/* italicizes the letters written in the footerLoc id*/
+#footerLoc{
+  font-style: italic;
+  font-size: 10pt;
+}
